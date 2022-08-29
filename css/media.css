@@ -1,0 +1,319 @@
+/* custom media not in bootstrap */
+@media (max-width: 510px){
+    h1 {
+        margin-top: 40px !important ;
+        font-size: 50px !important;
+    }
+
+    .hidden-xs {
+        display: none
+    }
+    
+    .visible-xs {
+        display: block !important ;
+    }
+}
+
+
+/* smart phone and tablets from 0 to 767px */
+@media (max-width: 767px) {
+    .visible-xs {
+        display: block !important ;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .navbar .navbar-links {
+        width: 100%; 
+        background-color: #000631; 
+    }
+
+    .navbar .navbar-links li{ 
+        display: block; 
+        border-bottom: 1px solid #322f41;
+    }
+
+    .navbar .navbar-links li:first-child {
+        border-top: 1px solid #322f41; 
+        padding-left: 0
+    }
+
+    .navbar .navbar-links li a,
+    .navbar .navbar-links li.active a {
+    text-decoration: none;
+    background-color: #000631; 
+    color: #fff;
+    }
+
+    h1 {
+        margin-top: 40px !important;
+    }
+
+    .header .overlay .plan {
+    float: none;
+    margin: 0 auto 20px;
+    font-size: 22px;
+    }
+
+    .features .feat { 
+        width: 100%; text-align: center;
+    }
+
+    .res-para { 
+        text-align: center; 
+        font-size: 18px !important;
+    }
+
+    .our-works .image {
+        width: 100%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .they-say .person-say:first-of-type { 
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    .they-say .person-say:not(:first-of-type) {
+        width: 100%;
+    }
+
+    .they-say .person-say:last-of-type {
+        margin-left:0;
+    }
+
+
+    .they-say .h1 { 
+        font-size: 45px;
+    }
+
+    .they-say .person-say img {
+    float: none;
+    display: inherit;
+    margin:auto;
+    margin-top: 15px;
+    }
+
+    .they-say .person-say h3 {
+    float: none;
+    text-align:center;
+    margin:20px 0;
+    width:100%;
+    }
+
+    .they-say .person-say p {
+    float: none;
+    width : 100%;
+    margin: 0 10px 20px 10px;
+    } 
+
+    .information .info-list li {
+        display: block;
+    }
+
+    .footer .copyright , 
+    .footer .design {
+        width: 100%;
+    }
+}   
+
+
+
+/* small screen from 768px to 991px*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .visible-xs {
+        display: none !important ;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+
+    .container {
+        width: 750px;
+    }
+
+    .visible-sm {
+        display: block !important ;
+    }
+
+    .hidden-sm {
+        display: none !important;
+    }
+
+    .features .feat {
+        text-align: center;
+    }
+
+    .features .feat:first-of-type {
+        width: 100%;
+    }
+
+    .features .feat:not(:first-of-type) {
+        width: 50%;
+    }
+
+    .res-para { 
+        text-align: center; 
+        font-size: 20px !important;
+    }
+
+    .our-works .image {
+        width: 50%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .they-say .person-say:first-of-type{
+        width: 96%; 
+        margin-left: 2%; 
+    }
+
+    .they-say .person-say:not(:first-of-type) {
+        width: 49%;
+    }
+
+    .they-say .person-say:last-of-type {
+        margin-left: 2%;
+    }
+
+    .they-say .person-say:not(:first-of-type) img {
+        float: none;
+        display: inherit;
+        margin:auto;
+    }
+
+    .they-say .person-say:not(:first-of-type) h3 {
+        float: none;
+        text-align:center;
+        margin:20px 0;
+        width:100%;
+    }
+
+    .they-say .person-say:not(:first-of-type) p {
+        float: none;
+        width : 100%;
+        margin: 0 10px 20px 10px;
+    }
+
+}
+
+
+/* medieum screen from 992px to 1199px*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .visible-xs {
+        display: none !important ;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+
+    .container {
+        width: 970px;
+    }
+
+    .visible-md {
+        display: block !important ;
+    }
+
+    .hidden-md {
+        display: none !important ;
+    }
+
+    .res-para { 
+        text-align: center; 
+        font-size: 22px !important;
+    }
+
+    .our-works .image {
+        width: 33.3333%;
+    }
+
+    .pricing-table .pricing-plan:not(.ultimate) {
+        margin-right: 1%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 32.66666%;
+    }
+
+    .pricing-table .pricing-plan.plus {
+        left:33.6666%;
+    }
+    
+    .pricing-table .pricing-plan.premium {
+        right:33.6666%;
+    }
+
+    .they-say .person-say:first-of-type {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+
+    .they-say .person-say:not(:first-of-type){
+        width: 48%;
+    }
+    
+    .they-say .person-say:last-of-type {
+        margin-left: 4%;
+    }
+
+}
+
+
+/*large screen from 1200px*/
+@media (min-width: 1200px) {
+    .visible-xs {
+        display: none !important ;
+    }
+
+    .hidden-xs {
+        display: block;
+    }
+    
+    .container {
+        width: 1170px;
+    }
+
+    .visible-lg {
+        display: block !important;
+    }
+
+    .hidden-lg {
+        display: none !important ;
+    }
+
+    .our-works .image {
+        width: 25%;
+    }
+
+    .pricing-table .pricing-plan:not(.ultimate ) {
+        margin-right: 1%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 32.66666%;
+    }
+
+    .pricing-table .pricing-plan.plus {
+        left:33.6666%;
+    }
+
+    .pricing-table .pricing-plan.premium {
+        right:33.6666%;
+    }
+
+}
+
+
+
